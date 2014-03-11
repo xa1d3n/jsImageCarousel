@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 100%; 
+    height: 200px; 
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+}
+
+/** Buttons **/
+#prevBtn, #nextBtn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -28px;
+    z-index: 60;
+    height: 50px;
+    width: 51px;
+    background-image:url('../images/arrows.png');
+}
+
+#nextBtn {
+    right: 10px;
+    background-position: 100% 0;
+}
+
+#prevBtn {
+    left: 10px;
+    background-position: 0 0;
+}
+
+#nextBtn:hover {
+    background-position: 100% 100%;
+}
+
+#prevBtn:hover {
+    background-position: 0 100%;
+}
+
+/** Carousel  **/
+#galleryContainer {
+    height: 100%;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+
+#gallery{
+        position: relative;
+        padding: 0;
+        height: 100%;
+        margin: 0;
+        left: -250px;
+        width: 99999px;
+}
+
+#gallery li{
+        width: 200px;
+        height: 99%;
+        float: left;
+        list-style: none;
+        text-align: center;
+        font-size: 10em;
+        margin: 5px;
+        margin-top: 0;
+        border: 1px solid black;
+}
