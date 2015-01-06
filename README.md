@@ -1,4 +1,5 @@
 jsImageCarousel
 ===============
 
-JavaScript Image Slider
+Image carousel. 
+Built with JavaScript, HTML, and CSS.
